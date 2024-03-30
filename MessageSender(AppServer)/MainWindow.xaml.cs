@@ -39,7 +39,7 @@ namespace MessageSender_AppServer_
         {
             try
             {
-                listener = new TcpListener(IPAddress.Parse("192.168.56.1"), 27001);
+                listener = new TcpListener(IPAddress.Parse("000.000.00.0"), 27001); //ipaddress
                 listener.Start();
                 Console.WriteLine("Server started. Listening for connections...");
 
